@@ -82,8 +82,11 @@ Automated backups for Apache and Nginx servers with scheduled cron jobs and inte
 **Backup Location:**
 <img width="935" height="800" alt="image" src="https://github.com/user-attachments/assets/2b6cc40e-9de9-4c0b-b9df-cc164ec39d4b" />
 
-**while performing the activity no backups found**
-<img width="748" height="342" alt="image" src="https://github.com/user-attachments/assets/9891803f-160d-44b0-a7c5-5e1c096829d1" />
+**Cron Job Configuration**
+$ sudo crontab -l
+0 0 * * 2 /usr/local/bin/apache_backup.sh
+0 0 * * 2 /usr/local/bin/nginx_backup.sh
+
 
 
 DevOps-Assignment/
