@@ -1,0 +1,29 @@
+User Management and Access Control Steps
+
+1. Created user accounts:
+   - sarah
+   - mike
+
+2. Set secure passwords using passwd command.
+
+3. Created isolated workspace directories:
+   - /home/sarah/workspace
+   - /home/mike/workspace
+
+4. Assigned ownership:
+   - sarah owns /home/sarah/workspace
+   - mike owns /home/mike/workspace
+
+5. Applied directory permissions:
+   - chmod 700 to restrict access
+
+6. Enforced password policy:
+   - Password expiry set to 30 days
+   - Warning period set to 7 days
+
+7. Verified password policies using:
+   chage -l sarah
+   chage -l mike
+
+Result:
+Each user has a secure, isolated environment with enforced password policies.
