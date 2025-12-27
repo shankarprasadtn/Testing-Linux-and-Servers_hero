@@ -89,18 +89,6 @@ $ sudo crontab -l
 
 
 
-DevOps-Assignment/
-├── monitoring/
-│ └── metrics.log
-├── user-management/
-│ └── user_setup_steps.txt
-├── backups/
-│ ├── apache_backup.sh
-│ ├── nginx_backup.sh
-│ ├── apache_verify.log
-│ └── nginx_verify.log
-└── README.md
-
 
 
 
