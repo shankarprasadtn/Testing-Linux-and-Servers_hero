@@ -1,0 +1,15 @@
+===== 2025-01-02 00:00:01 =====
+
+Disk Usage:
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sda1        50G   18G   30G  38% /
+
+Memory Usage:
+              total        used        free      shared  buff/cache   available
+Mem:           7860        3120        2680         120        2060        4350
+
+Top Processes:
+PID   USER     %CPU  %MEM COMMAND
+1321  root     22.5   4.1  java
+2456  apache   15.2   2.8  httpd
+3011  mysql    10.1   6.5  mysqld
